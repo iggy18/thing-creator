@@ -16,8 +16,8 @@ class App extends Component {
   }
   // update state for list
   onCreated(thing) {
-    const newList = [...this.state.things, thing]
-    this.setState({ newList }) 
+    const things = [...this.state.things, thing]
+    this.setState({things}) 
   }
 
   render() {
